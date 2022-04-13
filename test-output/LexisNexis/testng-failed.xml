@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LexisNexis]">
+  <test thread-count="5" name="TC001(failed)">
+    <parameter name="BROWSER" value="Chrome"/>
+    <parameter name="TestcaseDescription" value="To publish the task"/>
+    <parameter name="TCID" value="TC001"/>
+    <parameter name="Suitename" value="LexisNexis_01-13-2022_02-43-49_PM"/>
+    <classes>
+      <class name="com.vuram.automation.Businessflows.RaiseExpenseRequest">
+        <methods>
+          <include name="DeleteXmlfile"/>
+          <include name="QuitReportandDriver"/>
+          <include name="RaiseRequest"/>
+          <include name="StartReportandDriver"/>
+        </methods>
+      </class> <!-- com.vuram.automation.Businessflows.RaiseExpenseRequest -->
+    </classes>
+  </test> <!-- TC001(failed) -->
+</suite> <!-- Failed suite [LexisNexis] -->
